@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="style.css">
+<form>
+    <h2>Formulir Pemesanan Obat</h2>
+    <div>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+    </div>
+    <div>
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" required></textarea>
+    </div>
+    <div>
+        <label for="obat">Obat:</label>
+        <select id="obat" name="obat" required>
+            <option value="">--Pilih Obat--</option>
+            <option value="Paracetamol">Paracetamol</option>
+            <option value="Amoxicillin">Amoxicillin</option>
+            <option value="Cetirizine">Cetirizine</option>
+            <option value="Ibuprofen">Ibuprofen</option>
+        </select>
+    </div>
+    <div>
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" id="jumlah" name="jumlah" required>
+    </div>
+    <div>
+        <label for="tanggal">Tanggal Pemesanan:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+    </div>
+    <div class="button">
+        <button type="submit">Kirim</button>
+    </div>
+</form>
